@@ -1,0 +1,419 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* .main3{
+    width: 150vw;
+    border: 12px solid red;
+    display: flow-root;
+} */
+.main1{
+    background-color:aquamarine;
+    text-align: center;
+    height: 900px;
+}
+.list{
+    margin-right: 300px;
+}
+.item123{
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    justify-content: space-between;
+    animation-name: abc;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 1s; */
+    /* position: relative; */
+    /* row-gap: 50px; */
+}
+@keyframes abc{
+    0%{
+        left: 0px;
+        right: 0px;
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+        /* transition: transform 330ms ease-in-out; */
+    }
+    100%{
+        transform:skewX(20deg);
+    }
+    /* 100%{
+        transform: skew(0deg);
+    } */
+    
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    background-color:darkolivegreen;
+    margin-left:40px;
+    background-image: linear-gradient(orange, white, green);
+}
+.item2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 0, 0);
+    background-image: linear-gradient(orange, white, green);
+    /* background-image: conic-gradient(red, blue, rgb(102, 128, 0)); */
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    background-image: linear-gradient(orange, white, green);
+}
+.item456{
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.abcd{
+    animation-name: def;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: relative;
+    background-image: conic-gradient(black 0deg,black 90deg,white 90deg, white 180deg,black 180deg, black 270deg, white 270deg, white 360deg);
+}
+@keyframes def{
+    0%{
+        transform: skewY(-30deg);
+    }
+    50%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(-30deg);
+    }
+}
+.item4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-left: 40px;
+}
+.item5{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.item6{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.item789{
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    margin-top: 100px;
+    justify-content: space-between;
+    
+}
+.efgh{
+    animation-name: ghi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: relative;
+    background-image: linear-gradient(yellow, pink, blue, black);
+}
+@keyframes ghi{
+    0%{
+    transform:rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.item7{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-left: 40px;
+}
+.item8{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.item9{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.item101112{
+    display: flex;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.item10{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-left: 40px;
+    animation-name: jkl;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: relative;
+    background-image: radial-gradient(red, purple);
+}
+@keyframes jkl{
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+    transform:scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.item11{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    animation-name: mno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: relative;
+    background-image: radial-gradient(red, purple);
+}
+@keyframes mno{
+    0%{
+        transform:scaleX(1);
+    }
+    50%{
+        transform:scaleX(0.5);
+    }
+    100%{
+        transform:scaleX(1);
+    }
+}
+.item12{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    animation-name: pqr;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: relative;
+    background-image: radial-gradient(red, purple);
+}
+@keyframes pqr{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(90deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+.main{
+    text-align: center;
+    background-color: aqua;
+}
+.d1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(126, 128, 0);
+    transition-duration: 2s;
+    /* background-image: radial-gradient(red, purple); */
+    
+
+}
+.d1:hover{
+    padding-left: 200px;
+}
+.d2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition-duration: 2s;
+    background-image: radial-gradient(red, purple);
+    
+
+}
+.d2:hover{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.d3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(15, 0, 128);
+    transition-duration: 2s;
+    /* background-image: radial-gradient(red, purple); */
+    
+
+}
+.d3:hover{
+    transform: skew(-50deg);
+}
+.d4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition-duration: 2s;
+    background-image: radial-gradient(red, purple);
+    
+
+}
+.d4:hover{
+    transform: rotate(360deg);
+}
+.d5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 87, 128);
+    transition-duration: 2s;
+}
+.d5:hover{
+    border-radius: 50%;
+    background-color: blue;
+}
+.d6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 100, 0);
+    transition-duration: 2s;
+}
+.d6:hover{
+    background-image: linear-gradient(red, blue, green);
+}
+.d7{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition-duration: 2s;
+    
+
+}
+.d7:hover{
+    border-radius: 50%;
+    background-image: conic-gradient( red 0deg, red  90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg, blue 360deg );
+}
+li{
+    margin-top: 20px;
+}
+ol{
+    margin-left: 500px;
+}
+.skyimg{
+    display: inline-block;
+    /* height: 1000px; */
+}
+.cityimg{
+    /* position: relative; */
+    margin-top: -950px;
+}
+.roadimg{
+    margin-top: -10px;
+    width: 10vw;
+    background-repeat: repeat-x;
+    animation: road;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    z-index: 1;
+}
+@keyframes road{
+    100%{
+        transform: translate(-3400px);
+    }
+}
+.carimg{
+    /* display: grid; */
+    /* position: relative; */
+    margin-left: 500px;
+    margin-top: -400px;
+    /* height: 40px; */
+    /* background-image: url(./car.png); */
+    position: relative;
+    z-index: 2;
+}
+.img{
+    /* object-fit: cover; */
+    width: 500px;
+    /* margin-top: -500px; */
+    /* margin-left: 300px; */
+}
+.wheelimg{
+    width: 85px;
+    margin-left: 545px;
+    margin-top: -100px;
+    animation-name: wheel-rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel-rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wheel{
+    position: relative;
+    margin-top: -110px;
+    z-index: 2;
+}
+.wheel2{
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.flag{
+    width: 200px;
+    margin-left: 830px;
+}
+.flagdiv{
+    margin-top: -285px;
+}
+.flag2{
+    position: absolute;
+    width: 200px;
+    /* margin-left: 800px;
+    margin-top: -250px; */
+    margin-left: -230px;
+    transform: rotateY(180deg);
+}
+.txt{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 400px;
+    top: -1100px;
+}
+.txt1{
+    display: inline-block;
+    background-color: orange;
+}
+.txt2{
+    display: inline-block;
+    background-color: azure;
+}
+.txt3{
+    display: inline-block;
+    background-color: green;
+}
+.sun{
+    position: absolute;
+    margin-top: -1000px;
+}
+.new{
+    background-image: linear-gradient(90deg, orange, white, green);
+    height: 600px;
+    width: 1950px;
+    position: relative;
+}
